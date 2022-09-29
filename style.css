@@ -153,7 +153,7 @@
 }
 
 .main{
-  background: url(/images/hero.jpg) no-repeat;
+  background: url(./images/hero.jpg) no-repeat;
   background-size: 1550px 1250px;
   background-attachment: fixed;
   background-position: 0 -100px;
