@@ -154,9 +154,15 @@
 
 .main{
   background: url(./images/hero.jpg) no-repeat;
-  background-size: 1550px 1250px;
+  background-size: cover;
   background-attachment: fixed;
   background-position: 0 -100px;
+}
+
+@media screen and (max-width: 1300px) {
+  .main{
+    background-position: 0 -50px;
+  }
 }
 
 .main-container{
@@ -251,7 +257,8 @@
 
 .section p{
   font-size: 1.5rem;
-  text-align: center;
+  padding: 0 150px;
+  text-align: justify;
 }
 
 @media screen and (max-width: 768px) {
